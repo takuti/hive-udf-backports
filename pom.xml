@@ -53,6 +53,9 @@
 				<configuration>
 					<source>${java.version}</source>
 					<target>${java.version}</target>
+					<includes>
+						<include>org/apache/hadoop/hive/ql/udf/generic/GenericUDFLevenshtein.java</include>
+					</includes>
 					<debug>true</debug>
 					<debuglevel>lines,vars,source</debuglevel>
 					<encoding>UTF-8</encoding>
